@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="githubViewer">
+<head>
+    <meta charset="utf-8" />
+    <title>Github Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script data-require="angular-route@*" data-semver="1.6.2" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+    <script src="../app.js"></script>
+    <script src="../Controllers/MainController.js"></script>
+    <script src="../Controllers/UserController.js"></script>
+    <script src="../Controllers/RepoController.js"></script>
+    <script src="../Services/github.js"></script>
+</head>
+<body>
+    <h1>Github Viewer</h1>
+    <div ng-view></div>
+</body>
+</html>
